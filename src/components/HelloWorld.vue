@@ -22,7 +22,7 @@
           Located in: Shops at Fallen Timbers 3100 Main St #1200, Maumee, OH
           43537
         </p>
-        <div class="button-container">
+        <div class="button-container" style="display: flex;">
           <a
             class="cta-button"
             href="https://www.google.com/maps/dir//3100+Main+St+%231200,+Maumee,+OH+43537/@41.5474407,-83.788498,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883c71026ce0de55:0xc74663ce8f2566de!2m2!1d-83.7060972!2d41.5474701?entry=ttu"
@@ -39,7 +39,7 @@
           </a>
         </div>
       </div>
-      <div class="image-container">
+      <div class="image-container" style="display: flex; align-items: center;">
         <img
           src="../assets//images/RER-landing-image.jpeg"
           alt="three images of motorcycles"
@@ -106,8 +106,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* align-items: center;   
-  justify-content: center;  */
+  padding: 1em 2em 1em 1em;
   color: white;
 }
 h1 {
@@ -170,4 +169,13 @@ video {
 svg path {
     fill: white;
 }
+@media (max-width: 900px) {
+  .image-container {
+    display: none !important;
+  }
+  .cta-button {
+  padding: 0.5em 1em;
+}
+}
+
 </style>
