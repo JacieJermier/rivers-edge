@@ -2,13 +2,16 @@
 
 <template>
   <div class="layout">
+    <div class="header" style="display: flex; justify-content: center;">
+      <img src="../assets/images/Rivers-Edge-Racing-logo-white.png" alt="Rivers Edge Racing" style="position: relative; z-index: 10; max-width: 250px; top: 30px;">
+    </div>
     <div class="video-container">
       <video autoplay mute playsinline loop>
         <source src="../assets/videos/rivers-edge-video.mp4" />
       </video>
     </div>
 
-    <div class="info-container">
+    <div class="info-container" style="margin-top :1em;">
       <div class="text-container">
         <h1>Rivers Edge Racing <br />Now Open</h1>
         <p>
@@ -48,13 +51,13 @@
     </div>
     <div class="social-icons">
       <a href="https://www.facebook.com/profile.php?id=100090918243835"
-        ><img src="../assets/images/facebook.svg" alt="Facebook"
+        ><img src="../assets/images/facebook-white.png" alt="Facebook"
       /></a>
       <a href="https://www.instagram.com/rivers_edge_racing/"
-        ><img src="../assets/images/instagram.svg" alt="Instagram"
+        ><img src="../assets/images/instagram-white.png" alt="Instagram"
       /></a>
       <a href="https://www.tiktok.com/@rivers_edge_racing?_t=8dujULvjSwg&_r=1"
-        ><img src="../assets/images/tiktok.svg" alt="TikTok"
+        ><img src="../assets/images/tiktok-white.png" alt="TikTok"
       /></a>
     </div>
   </div>
