@@ -5,8 +5,8 @@
     <div class="header" style="display: flex; justify-content: center;">
       <img src="../assets/images/Rivers-Edge-Racing-logo-white.png" alt="Rivers Edge Racing" style="position: relative; z-index: 10; max-width: 250px; top: 30px;">
     </div>
-    <div class="video-container">
-      <video autoplay mute playsinline loop>
+    <div class="video-container" style="margin-top: -30px;">
+      <video autoplay mute playsinline loop >
         <source src="../assets/videos/rivers-edge-video.mp4" />
       </video>
     </div>
