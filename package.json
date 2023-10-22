@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "quasar": "^2.12.6",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@quasar/cli": "^2.3.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "sass": "^1.66.1",
     "typescript": "^5.0.2",
